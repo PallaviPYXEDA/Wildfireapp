@@ -68,7 +68,7 @@ def get_weather_data(url: str):
     return main_data, wind_data, cloud_data, weather_data, weather_dict
 
 # set a title
-st.title("Wild Fire Prediction")
+st.title("Wild Fire Prediction Application")
 
 # set the image
 st.image(IMAGE_ADDRESS, caption = "Wildfire")
